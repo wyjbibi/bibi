@@ -61,6 +61,8 @@
 }
 .line {
 }
+.arrow {
+}
 .text_field {
   color:#000000;
   text-align:left;
@@ -99,6 +101,9 @@
   font-style:normal;
   font-size:13px;
   color:#1E1E1E;
+}
+.marker {
+  color:#FFFFFF;
 }
 ._流程形状 {
   font-family:'黑体';
