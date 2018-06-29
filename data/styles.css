@@ -102,6 +102,9 @@
   font-size:13px;
   color:#1E1E1E;
 }
+.sticky_1 {
+  text-align:left;
+}
 .marker {
   color:#FFFFFF;
 }
@@ -234,4 +237,6 @@
   line-height:normal;
 }
 .box_32 {
+}
+.flow_shape {
 }
