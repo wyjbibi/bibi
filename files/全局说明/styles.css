@@ -3,7 +3,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:133px;
+  width:116px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -12,30 +12,30 @@
   position:absolute;
   z-index:0;
 }
-#u16_img {
+#u162_img {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:53px;
+  width:36px;
   height:19px;
 }
-#u16 {
+#u162 {
   border-width:0px;
   position:absolute;
   left:81px;
   top:69px;
-  width:52px;
+  width:35px;
   height:18px;
   font-family:'黑体 Bold', '黑体 Regular', '黑体';
   font-weight:700;
   font-style:normal;
 }
-#u16_text {
+#u162_text {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:52px;
+  width:35px;
   white-space:nowrap;
 }
