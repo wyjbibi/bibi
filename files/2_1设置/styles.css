@@ -462,3 +462,27 @@
   width:35px;
   white-space:nowrap;
 }
+#u5028_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:9px;
+  height:17px;
+}
+#u5028 {
+  border-width:0px;
+  position:absolute;
+  left:405px;
+  top:124px;
+  width:8px;
+  height:16px;
+}
+#u5028_text {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:8px;
+  white-space:nowrap;
+}
