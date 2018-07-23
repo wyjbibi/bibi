@@ -1,0 +1,639 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>A5订单状态机</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/a5订单状态机/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/a5订单状态机/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (椭圆形) -->
+      <div id="u117" class="ax_default ellipse">
+        <img id="u117_img" class="img " src="images/a5订单状态机/u117.png"/>
+        <div id="u117_text" class="text ">
+          <p><span>线路</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u118" class="ax_default box_1">
+        <img id="u118_img" class="img " src="images/a5订单状态机/u118.png"/>
+        <div id="u118_text" class="text ">
+          <p><span>待付款</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u119" class="ax_default box_1">
+        <img id="u119_img" class="img " src="images/a5订单状态机/u118.png"/>
+        <div id="u119_text" class="text ">
+          <p><span>预订成功</span></p><p><span>库存-n</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u120" class="ax_default box_1">
+        <img id="u120_img" class="img " src="images/a5订单状态机/u118.png"/>
+        <div id="u120_text" class="text ">
+          <p><span>待参加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u121" class="ax_default box_1">
+        <img id="u121_img" class="img " src="images/a5订单状态机/u118.png"/>
+        <div id="u121_text" class="text ">
+          <p><span>已失效</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u122" class="ax_default box_1">
+        <img id="u122_img" class="img " src="images/a5订单状态机/u118.png"/>
+        <div id="u122_text" class="text ">
+          <p><span>已取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u123" class="ax_default _连接线">
+        <img id="u123_seg0" class="img " src="images/a5订单状态机/u123_seg0.png" alt="u123_seg0"/>
+        <img id="u123_seg1" class="img " src="images/a5订单状态机/u123_seg1.png" alt="u123_seg1"/>
+        <div id="u123_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u124" class="ax_default _连接线">
+        <img id="u124_seg0" class="img " src="images/a5订单状态机/u124_seg0.png" alt="u124_seg0"/>
+        <img id="u124_seg1" class="img " src="images/a5订单状态机/u123_seg1.png" alt="u124_seg1"/>
+        <div id="u124_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u125" class="ax_default _连接线">
+        <img id="u125_seg0" class="img " src="images/a5订单状态机/u123_seg0.png" alt="u125_seg0"/>
+        <img id="u125_seg1" class="img " src="images/a5订单状态机/u123_seg1.png" alt="u125_seg1"/>
+        <div id="u125_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u126" class="ax_default _连接线">
+        <img id="u126_seg0" class="img " src="images/a5订单状态机/u126_seg0.png" alt="u126_seg0"/>
+        <img id="u126_seg1" class="img " src="images/a5订单状态机/u126_seg1.png" alt="u126_seg1"/>
+        <img id="u126_seg2" class="img " src="images/a5订单状态机/u123_seg1.png" alt="u126_seg2"/>
+        <div id="u126_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u127" class="ax_default _连接线">
+        <img id="u127_seg0" class="img " src="images/a5订单状态机/u127_seg0.png" alt="u127_seg0"/>
+        <img id="u127_seg1" class="img " src="images/a5订单状态机/u127_seg1.png" alt="u127_seg1"/>
+        <img id="u127_seg2" class="img " src="images/a5订单状态机/u123_seg1.png" alt="u127_seg2"/>
+        <div id="u127_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合 ) -->
+      <div id="u128" class="ax_default" data-left="1099" data-top="114" data-width="31" data-height="31">
+
+        <!-- Unnamed (椭圆形) -->
+        <div id="u129" class="ax_default ellipse">
+          <img id="u129_img" class="img " src="images/a5订单状态机/u129.png"/>
+        </div>
+
+        <!-- Unnamed (椭圆形) -->
+        <div id="u130" class="ax_default ellipse">
+          <img id="u130_img" class="img " src="images/a5订单状态机/u130.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u131" class="ax_default _连接线">
+        <img id="u131_seg0" class="img " src="images/a5订单状态机/u131_seg0.png" alt="u131_seg0"/>
+        <img id="u131_seg1" class="img " src="images/a5订单状态机/u131_seg1.png" alt="u131_seg1"/>
+        <img id="u131_seg2" class="img " src="images/a5订单状态机/u131_seg2.png" alt="u131_seg2"/>
+        <div id="u131_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u132" class="ax_default _连接线">
+        <img id="u132_seg0" class="img " src="images/a5订单状态机/u131_seg0.png" alt="u132_seg0"/>
+        <img id="u132_seg1" class="img " src="images/a5订单状态机/u132_seg1.png" alt="u132_seg1"/>
+        <img id="u132_seg2" class="img " src="images/a5订单状态机/u132_seg2.png" alt="u132_seg2"/>
+        <div id="u132_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u133" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u134" class="ax_default table_cell">
+          <img id="u134_img" class="img " src="images/a5订单状态机/u134.png"/>
+          <div id="u134_text" class="text ">
+            <p><span>线路</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u135" class="ax_default table_cell">
+          <img id="u135_img" class="img " src="images/a5订单状态机/u135.png"/>
+          <div id="u135_text" class="text ">
+            <p><span>待付款</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u136" class="ax_default table_cell">
+          <img id="u136_img" class="img " src="images/a5订单状态机/u136.png"/>
+          <div id="u136_text" class="text ">
+            <p><span>预订成功</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u137" class="ax_default table_cell">
+          <img id="u137_img" class="img " src="images/a5订单状态机/u137.png"/>
+          <div id="u137_text" class="text ">
+            <p><span>待参加</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u138" class="ax_default table_cell">
+          <img id="u138_img" class="img " src="images/a5订单状态机/u134.png"/>
+          <div id="u138_text" class="text ">
+            <p><span>交易关闭-已失效</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u139" class="ax_default table_cell">
+          <img id="u139_img" class="img " src="images/a5订单状态机/u137.png"/>
+          <div id="u139_text" class="text ">
+            <p><span>交易关闭-已取消</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u140" class="ax_default table_cell">
+          <img id="u140_img" class="img " src="images/a5订单状态机/u140.png"/>
+          <div id="u140_text" class="text ">
+            <p><span>交易完成</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u141" class="ax_default table_cell">
+          <img id="u141_img" class="img " src="images/a5订单状态机/u141.png"/>
+          <div id="u141_text" class="text ">
+            <p><span>操作对象</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u142" class="ax_default table_cell">
+          <img id="u142_img" class="img " src="images/a5订单状态机/u142.png"/>
+          <div id="u142_text" class="text ">
+            <p><span>会员</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u143" class="ax_default table_cell">
+          <img id="u143_img" class="img " src="images/a5订单状态机/u143.png"/>
+          <div id="u143_text" class="text ">
+            <p><span>会员</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u144" class="ax_default table_cell">
+          <img id="u144_img" class="img " src="images/a5订单状态机/u144.png"/>
+          <div id="u144_text" class="text ">
+            <p><span>后台客服</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u145" class="ax_default table_cell">
+          <img id="u145_img" class="img " src="images/a5订单状态机/u141.png"/>
+          <div id="u145_text" class="text ">
+            <p><span>系统</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u146" class="ax_default table_cell">
+          <img id="u146_img" class="img " src="images/a5订单状态机/u144.png"/>
+          <div id="u146_text" class="text ">
+            <p><span>会员</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u147" class="ax_default table_cell">
+          <img id="u147_img" class="img " src="images/a5订单状态机/u147.png"/>
+          <div id="u147_text" class="text ">
+            <p><span>后台客服</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u148" class="ax_default table_cell">
+          <img id="u148_img" class="img " src="images/a5订单状态机/u148.png"/>
+          <div id="u148_text" class="text ">
+            <p><span>前置条件</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u149" class="ax_default table_cell">
+          <img id="u149_img" class="img " src="images/a5订单状态机/u149.png"/>
+          <div id="u149_text" class="text ">
+            <p><span>用户下单未付款</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u150" class="ax_default table_cell">
+          <img id="u150_img" class="img " src="images/a5订单状态机/u150.png"/>
+          <div id="u150_text" class="text ">
+            <p><span>用户付款成功</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u151" class="ax_default table_cell">
+          <img id="u151_img" class="img " src="images/a5订单状态机/u151.png"/>
+          <div id="u151_text" class="text ">
+            <p><span>出行计划中设置了发团</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u152" class="ax_default table_cell">
+          <img id="u152_img" class="img " src="images/a5订单状态机/u148.png"/>
+          <div id="u152_text" class="text ">
+            <p><span>用户下单后，超过2小时未支付成功</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u153" class="ax_default table_cell">
+          <img id="u153_img" class="img " src="images/a5订单状态机/u151.png"/>
+          <div id="u153_text" class="text ">
+            <p><span>用户自行取消</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u154" class="ax_default table_cell">
+          <img id="u154_img" class="img " src="images/a5订单状态机/u154.png"/>
+          <div id="u154_text" class="text ">
+            <p><span>1导游线下汇报未到用户</span></p><p><span>2客服线上将未到用户标记为未到场</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u155" class="ax_default table_cell">
+          <img id="u155_img" class="img " src="images/a5订单状态机/u141.png"/>
+          <div id="u155_text" class="text ">
+            <p><span>后置条件</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u156" class="ax_default table_cell">
+          <img id="u156_img" class="img " src="images/a5订单状态机/u142.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u157" class="ax_default table_cell">
+          <img id="u157_img" class="img " src="images/a5订单状态机/u143.png"/>
+          <div id="u157_text" class="text ">
+            <p><span>库存-n</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u158" class="ax_default table_cell">
+          <img id="u158_img" class="img " src="images/a5订单状态机/u144.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u159" class="ax_default table_cell">
+          <img id="u159_img" class="img " src="images/a5订单状态机/u141.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u160" class="ax_default table_cell">
+          <img id="u160_img" class="img " src="images/a5订单状态机/u144.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u161" class="ax_default table_cell">
+          <img id="u161_img" class="img " src="images/a5订单状态机/u147.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u162" class="ax_default table_cell">
+          <img id="u162_img" class="img " src="images/a5订单状态机/u162.png"/>
+          <div id="u162_text" class="text ">
+            <p><span>小程序显示文案</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u163" class="ax_default table_cell">
+          <img id="u163_img" class="img " src="images/a5订单状态机/u163.png"/>
+          <div id="u163_text" class="text ">
+            <p><span>待付款</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u164" class="ax_default table_cell">
+          <img id="u164_img" class="img " src="images/a5订单状态机/u164.png"/>
+          <div id="u164_text" class="text ">
+            <p><span>预订成功</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u165" class="ax_default table_cell">
+          <img id="u165_img" class="img " src="images/a5订单状态机/u165.png"/>
+          <div id="u165_text" class="text ">
+            <p><span>待参加</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u166" class="ax_default table_cell">
+          <img id="u166_img" class="img " src="images/a5订单状态机/u162.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u167" class="ax_default table_cell">
+          <img id="u167_img" class="img " src="images/a5订单状态机/u165.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u168" class="ax_default table_cell">
+          <img id="u168_img" class="img " src="images/a5订单状态机/u168.png"/>
+          <div id="u168_text" class="text ">
+            <p><span>待评价、</span></p><p><span>评价后显示交易完成</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u169" class="ax_default label">
+        <img id="u169_img" class="img " src="images/a5订单状态机/u169.png"/>
+        <div id="u169_text" class="text ">
+          <p><span>下单后未支付成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u170" class="ax_default label">
+        <img id="u170_img" class="img " src="images/a5订单状态机/u170.png"/>
+        <div id="u170_text" class="text ">
+          <p><span>下单后支付成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u171" class="ax_default label">
+        <img id="u171_img" class="img " src="images/a5订单状态机/u169.png"/>
+        <div id="u171_text" class="text ">
+          <p><span>后台客服确认发团</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u172" class="ax_default box_1">
+        <img id="u172_img" class="img " src="images/a5订单状态机/u118.png"/>
+        <div id="u172_text" class="text ">
+          <p><span>交易完成</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u173" class="ax_default _连接线">
+        <img id="u173_seg0" class="img " src="images/a5订单状态机/u173_seg0.png" alt="u173_seg0"/>
+        <img id="u173_seg1" class="img " src="images/a5订单状态机/u123_seg1.png" alt="u173_seg1"/>
+        <div id="u173_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u174" class="ax_default flow_shape">
+        <img id="u174_img" class="img " src="images/a5订单状态机/u174.png"/>
+        <div id="u174_text" class="text ">
+          <p><span>是否到场</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u175" class="ax_default label">
+        <img id="u175_img" class="img " src="images/a5订单状态机/u175.png"/>
+        <div id="u175_text" class="text ">
+          <p><span>客服提交“出行核对记录”</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u176" class="ax_default _连接线">
+        <img id="u176_seg0" class="img " src="images/a5订单状态机/u176_seg0.png" alt="u176_seg0"/>
+        <img id="u176_seg1" class="img " src="images/a5订单状态机/u176_seg1.png" alt="u176_seg1"/>
+        <img id="u176_seg2" class="img " src="images/a5订单状态机/u176_seg2.png" alt="u176_seg2"/>
+        <div id="u176_text" class="text ">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u177" class="ax_default label">
+        <img id="u177_img" class="img " src="images/a5订单状态机/u177.png"/>
+        <div id="u177_text" class="text ">
+          <p><span>支付超时</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u178" class="ax_default label">
+        <img id="u178_img" class="img " src="images/a5订单状态机/u169.png"/>
+        <div id="u178_text" class="text ">
+          <p><span>会员手动取消订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u179" class="ax_default _连接线">
+        <img id="u179_seg0" class="img " src="images/a5订单状态机/u179_seg0.png" alt="u179_seg0"/>
+        <img id="u179_seg1" class="img " src="images/a5订单状态机/u179_seg1.png" alt="u179_seg1"/>
+        <img id="u179_seg2" class="img " src="images/a5订单状态机/u179_seg2.png" alt="u179_seg2"/>
+        <div id="u179_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u180" class="ax_default _连接线">
+        <img id="u180_seg0" class="img " src="images/a5订单状态机/u180_seg0.png" alt="u180_seg0"/>
+        <img id="u180_seg1" class="img " src="images/a5订单状态机/u180_seg1.png" alt="u180_seg1"/>
+        <img id="u180_seg2" class="img " src="images/a5订单状态机/u176_seg2.png" alt="u180_seg2"/>
+        <div id="u180_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u181" class="ax_default label">
+        <img id="u181_img" class="img " src="images/a5订单状态机/u181.png"/>
+        <div id="u181_text" class="text ">
+          <p><span>售后相关规则</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u182" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u183" class="ax_default table_cell">
+          <img id="u183_img" class="img " src="images/a5订单状态机/u183.png"/>
+          <div id="u183_text" class="text ">
+            <p><span>申请时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u184" class="ax_default table_cell">
+          <img id="u184_img" class="img " src="images/a5订单状态机/u184.png"/>
+          <div id="u184_text" class="text ">
+            <p><span>退款</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u185" class="ax_default table_cell">
+          <img id="u185_img" class="img " src="images/a5订单状态机/u185.png"/>
+          <div id="u185_text" class="text ">
+            <p><span>改期</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u186" class="ax_default table_cell">
+          <img id="u186_img" class="img " src="images/a5订单状态机/u183.png"/>
+          <div id="u186_text" class="text ">
+            <p><span>≥5天</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u187" class="ax_default table_cell">
+          <img id="u187_img" class="img " src="images/a5订单状态机/u184.png"/>
+          <div id="u187_text" class="text ">
+            <p><span>100%</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u188" class="ax_default table_cell">
+          <img id="u188_img" class="img " src="images/a5订单状态机/u185.png"/>
+          <div id="u188_text" class="text ">
+            <p><span>允许</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u189" class="ax_default table_cell">
+          <img id="u189_img" class="img " src="images/a5订单状态机/u189.png"/>
+          <div id="u189_text" class="text ">
+            <p><span>&lt;5天</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u190" class="ax_default table_cell">
+          <img id="u190_img" class="img " src="images/a5订单状态机/u190.png"/>
+          <div id="u190_text" class="text ">
+            <p><span>后台客服手动输入</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u191" class="ax_default table_cell">
+          <img id="u191_img" class="img " src="images/a5订单状态机/u191.png"/>
+          <div id="u191_text" class="text ">
+            <p><span>不允许</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u192" class="ax_default label">
+        <img id="u192_img" class="img " src="images/a5订单状态机/u192.png"/>
+        <div id="u192_text" class="text ">
+          <p><span>以下时间范围指申请时时间与出行日期</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u193" class="ax_default label">
+        <img id="u193_img" class="img " src="images/a5订单状态机/u177.png"/>
+        <div id="u193_text" class="text ">
+          <p><span>改期次数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u194" class="ax_default label">
+        <img id="u194_img" class="img " src="images/a5订单状态机/u194.png"/>
+        <div id="u194_text" class="text ">
+          <p><span>限改期三次，三次后前台隐藏“申请改期”按钮</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u195" class="ax_default label">
+        <img id="u195_img" class="img " src="images/a5订单状态机/u192.png"/>
+        <div id="u195_text" class="text ">
+          <p><span>超出有效范围，隐藏“申请改期”按钮</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
