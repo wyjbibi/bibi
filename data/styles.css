@@ -137,7 +137,7 @@
   font-size:14px;
 }
 .heading_1 {
-  font-family:'黑体 Bold', '黑体';
+  font-family:'黑体 Bold', '黑体 Regular', '黑体';
   font-weight:700;
   font-style:normal;
   font-size:32px;
@@ -185,7 +185,7 @@
 .vertical_line {
 }
 .heading_2 {
-  font-family:'黑体 Bold', '黑体';
+  font-family:'黑体 Bold', '黑体 Regular', '黑体';
   font-weight:700;
   font-style:normal;
   font-size:24px;
@@ -242,4 +242,6 @@
 .box_32 {
 }
 .flow_shape {
+}
+._图片1 {
 }
