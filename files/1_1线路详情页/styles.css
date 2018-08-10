@@ -175,7 +175,7 @@
   top:285px;
   width:121px;
   height:16px;
-  font-family:'黑体 Bold', '黑体';
+  font-family:'黑体 Bold', '黑体 Regular', '黑体';
   font-weight:700;
   font-style:normal;
 }
@@ -226,7 +226,7 @@
   top:349px;
   width:76px;
   height:18px;
-  font-family:'黑体 Bold', '黑体';
+  font-family:'黑体 Bold', '黑体 Regular', '黑体';
   font-style:normal;
 }
 #u5955_text {
@@ -1275,7 +1275,7 @@
   top:950px;
   width:360px;
   height:409px;
-  font-family:'黑体 Bold', '黑体';
+  font-family:'黑体 Bold', '黑体 Regular', '黑体';
   font-weight:700;
   font-style:normal;
   text-align:left;
@@ -1629,7 +1629,7 @@
   top:688px;
   width:61px;
   height:16px;
-  font-family:'黑体 Bold', '黑体';
+  font-family:'黑体 Bold', '黑体 Regular', '黑体';
   font-weight:700;
   font-style:normal;
   color:rgba(51, 51, 51, 0.847058823529412);
@@ -1854,7 +1854,7 @@
   top:647px;
   width:61px;
   height:16px;
-  font-family:'黑体 Bold', '黑体';
+  font-family:'黑体 Bold', '黑体 Regular', '黑体';
   font-weight:700;
   font-style:normal;
   color:rgba(51, 51, 51, 0.847058823529412);
