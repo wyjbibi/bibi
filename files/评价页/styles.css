@@ -150,7 +150,7 @@
   top:83px;
   width:69px;
   height:18px;
-  font-family:'黑体 Bold', '黑体';
+  font-family:'黑体 Bold', '黑体 Regular', '黑体';
   font-weight:700;
   font-style:normal;
 }
@@ -217,7 +217,7 @@
   top:220px;
   width:61px;
   height:16px;
-  font-family:'黑体 Bold', '黑体';
+  font-family:'黑体 Bold', '黑体 Regular', '黑体';
   font-weight:700;
   font-style:normal;
 }
@@ -244,7 +244,7 @@
   top:264px;
   width:91px;
   height:16px;
-  font-family:'黑体 Bold', '黑体';
+  font-family:'黑体 Bold', '黑体 Regular', '黑体';
   font-weight:700;
   font-style:normal;
 }
@@ -271,7 +271,7 @@
   top:305px;
   width:61px;
   height:16px;
-  font-family:'黑体 Bold', '黑体';
+  font-family:'黑体 Bold', '黑体 Regular', '黑体';
   font-weight:700;
   font-style:normal;
 }
@@ -843,7 +843,7 @@
   top:83px;
   width:69px;
   height:18px;
-  font-family:'黑体 Bold', '黑体';
+  font-family:'黑体 Bold', '黑体 Regular', '黑体';
   font-weight:700;
   font-style:normal;
 }
